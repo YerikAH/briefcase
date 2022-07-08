@@ -1,0 +1,130 @@
+.original-theme .all-info-seccion-two {
+  color: white;
+  background-color: var(--original);
+}
+.seccion-two-first-part {
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 0 20px;
+}
+.seccion-two-first-part h1 {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--white);
+}
+.seccion-two-first-part p {
+  line-height: 30px;
+  margin-top: 25px;
+  font-weight: 400;
+  color: var(--white);
+}
+.seccion-two-first-part button {
+  margin-top: 25px;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-family: var(--overpass);
+  font-size: 16px;
+  border-radius: 255px;
+  color: var(--original);
+}
+.seccion-two-second-part {
+  text-align: center;
+  padding: 50px 0;
+}
+.seccion-two-second-part h2 {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--white);
+}
+.second-part-flex-media {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25px 25px 25px;
+  gap: 40px;
+}
+.seccion-two-second-part p {
+  line-height: 30px;
+  margin-top: 50px;
+  color: var(--white);
+}
+@media (min-width: 710px) {
+  .all-info-seccion-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  .seccion-two-first-part {
+    padding: 0;
+    text-align: center;
+    border-bottom: 0;
+    margin: 0;
+    border-right: 1px solid white;
+  }
+  .seccion-two-second-part {
+    padding: 50px 0;
+  }
+  .seccion-two-first-part p {
+    line-height: 40px;
+    padding: 0 20px;
+  }
+
+  .second-part-flex-media {
+    justify-content: center;
+  }
+}
+@media (min-width: 1080px) {
+  .all-info-seccion-two {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .seccion-two-first-part {
+    max-width: 430px;
+    text-align: left;
+  }
+  .seccion-two-first-part p {
+    padding: 0 70px 0 0;
+  }
+  .seccion-two-second-part {
+    text-align: left;
+    padding: 50px 0 50px 70px;
+    max-width: 373px;
+  }
+  .second-part-flex-media {
+    justify-content: start;
+  }
+}
+.ti-s-two {
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+}
+.ti-s-two:hover,
+.ti-s-two:focus,
+.ti-s-two:active {
+  animation-name: twiEfec;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes twiEfec {
+  17% {
+    transform: translateY(8px);
+  }
+  34% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  67% {
+    transform: translateY(-2px);
+  }
+  84% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,296 @@
+.original-theme .seccion-two-first-part button {
+  color: var(--original);
+}
+.blue-theme .all-info-seccion-two {
+  background-color: var(--blue);
+}
+.blue-theme .seccion-two-first-part button {
+  color: var(--blue);
+}
+.yellow-theme .all-info-seccion-two {
+  background-color: var(--yellow);
+}
+.yellow-theme .seccion-two-first-part button {
+  color: var(--yellow);
+}
+.red-theme .all-info-seccion-two {
+  background-color: var(--red);
+}
+.red-theme .seccion-two-first-part button {
+  color: var(--red);
+}
+.green-theme .all-info-seccion-two {
+  background-color: var(--green);
+}
+.green-theme .seccion-two-first-part button {
+  color: var(--green);
+}
+.black-theme .all-info-seccion-two {
+  background: rgb(46, 173, 255);
+  background: linear-gradient(
+    153deg,
+    rgba(46, 173, 255, 1) 5%,
+    rgba(6, 12, 79, 1) 94%,
+    rgba(6, 12, 79, 1) 100%
+  );
+}
+.black-theme .seccion-two-first-part button {
+  color: rgba(46, 173, 255, 1);
+}
+
+.blue-theme .language-es button:hover,
+.blue-theme .language-en button:hover {
+  color: var(--blue);
+  transition: 0.3s;
+}
+.red-theme .language-es button:hover,
+.red-theme .language-en button:hover {
+  color: var(--red);
+  transition: 0.3s;
+}
+.yellow-theme .language-es button:hover,
+.yellow-theme .language-en button:hover {
+  color: var(--yellow);
+  transition: 0.3s;
+}
+.green-theme .language-es button:hover,
+.green-theme .language-en button:hover {
+  color: var(--green);
+  transition: 0.3s;
+}
+.black-theme .language-es button:hover,
+.black-theme .language-en button:hover {
+  background: linear-gradient(
+    153deg,
+    rgba(46, 173, 255, 1) 5%,
+    rgba(6, 12, 79, 1) 94%,
+    rgba(6, 12, 79, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  transition: 0.3s;
+}
+.original-theme .language-es button:hover,
+.original-theme .language-en button:hover {
+  color: var(--original);
+  transition: 0.3s;
+}
+
+.blue-theme .btn-view-code {
+  background-color: var(--blue);
+}
+.yellow-theme .btn-view-code {
+  background-color: var(--yellow);
+}
+.red-theme .btn-view-code {
+  background-color: var(--red);
+}
+.green-theme .btn-view-code {
+  background-color: var(--green);
+}
+.original-theme .btn-view-code {
+  background-color: var(--original);
+}
+.black-theme .btn-view-code {
+  background: rgb(46, 173, 255);
+  background: linear-gradient(
+    153deg,
+    rgba(46, 173, 255, 1) 5%,
+    rgba(6, 12, 79, 1) 94%,
+    rgba(6, 12, 79, 1) 100%
+  );
+}
+
+.blue-theme .btn-view-app {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.yellow-theme .btn-view-app {
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+}
+.red-theme .btn-view-app {
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+.green-theme .btn-view-app {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+.original-theme .btn-view-app {
+  border: 1px solid var(--original);
+  color: var(--original);
+}
+.black-theme .btn-view-app {
+  color: rgb(46, 173, 255);
+  border: 1px solid rgba(46, 173, 255, 1);
+}
+
+.blue-theme .test-line-a {
+  color: var(--blue);
+}
+.yellow-theme .test-line-a {
+  color: var(--yellow);
+}
+.red-theme .test-line-a {
+  color: var(--red);
+}
+.green-theme .test-line-a {
+  color: var(--green);
+}
+.original-theme .test-line-a {
+  color: var(--original);
+}
+.black-theme .test-line-a {
+  color: rgb(46, 173, 255);
+}
+
+.blue-theme .view-curr {
+  background-color: var(--blue);
+}
+.yellow-theme .view-curr {
+  background-color: var(--yellow);
+}
+.red-theme .view-curr {
+  background-color: var(--red);
+}
+.green-theme .view-curr {
+  background-color: var(--green);
+}
+.original-theme .view-curr {
+  background-color: var(--original);
+}
+.black-theme .view-curr {
+  background: rgb(46, 173, 255);
+  background: linear-gradient(
+    153deg,
+    rgba(46, 173, 255, 1) 5%,
+    rgba(6, 12, 79, 1) 94%,
+    rgba(6, 12, 79, 1) 100%
+  );
+}
+
+.blue-theme .view-exam {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.yellow-theme .view-exam {
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+}
+.red-theme .view-exam {
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+.green-theme .view-exam {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+.original-theme .view-exam {
+  border: 1px solid var(--original);
+  color: var(--original);
+}
+.black-theme .view-exam {
+  color: rgb(46, 173, 255);
+
+  border: 1px solid rgba(46, 173, 255, 1);
+}
+/*six seccion*/
+.blue-theme .link-about {
+  color: var(--blue);
+}
+.yellow-theme .link-about {
+  color: var(--yellow);
+}
+.red-theme .link-about {
+  color: var(--red);
+}
+.green-theme .link-about {
+  color: var(--green);
+}
+.original-theme .link-about {
+  color: var(--original);
+}
+.black-theme .link-about {
+  color: rgb(46, 173, 255);
+}
+
+.blue-theme .first-border {
+  border: 1px solid var(--blue);
+}
+.blue-theme .second-border {
+  border: 1px solid var(--blue);
+}
+
+.yellow-theme .first-border {
+  border: 1px solid var(--yellow);
+}
+.yellow-theme .second-border {
+  border: 1px solid var(--yellow);
+}
+
+.red-theme .first-border {
+  border: 1px solid var(--red);
+}
+.red-theme .second-border {
+  border: 1px solid var(--red);
+}
+
+.green-theme .first-border {
+  border: 1px solid var(--green);
+}
+.green-theme .second-border {
+  border: 1px solid var(--green);
+}
+.original-theme .first-border {
+  border: 1px solid var(--original);
+}
+.original-theme .second-border {
+  border: 1px solid var(--original);
+}
+.black-theme .first-border {
+  border: 1px solid rgba(46, 173, 255, 1);
+}
+.black-theme .second-border {
+  border: 1px solid rgba(46, 173, 255, 1);
+}
+.blue-theme .footer {
+  background-color: var(--blue);
+}
+.red-theme .footer {
+  background-color: var(--red);
+}
+.yellow-theme .footer {
+  background-color: var(--yellow);
+}
+.green-theme .footer {
+  background-color: var(--green);
+}
+.original-theme .footer {
+  background-color: var(--original);
+}
+.black-theme .footer {
+  background: rgb(46, 173, 255);
+  background: linear-gradient(
+    153deg,
+    rgba(46, 173, 255, 1) 5%,
+    rgba(6, 12, 79, 1) 94%,
+    rgba(6, 12, 79, 1) 100%
+  );
+}
+.btn-view-code:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn-view-app:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.view-curr:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.view-exam {
+  opacity: 0.6;
+  transition: 0.3s;
+}

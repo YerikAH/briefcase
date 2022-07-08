@@ -1,0 +1,88 @@
+.section-five {
+  display: grid;
+  place-items: center;
+  padding-bottom: 100px;
+}
+.section-five-title {
+  display: flex;
+  padding-top: 70px;
+}
+.section-five-title h3 {
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  font-weight: 900;
+  color: var(--title);
+  margin-right: 10px;
+}
+.section-five-title span {
+  width: 24px;
+  margin-left: 10px;
+}
+.section-five-title > span > img {
+  width: 100%;
+}
+.section-five p {
+  padding: 0 3rem;
+  line-height: 25px;
+  color: var(--text);
+  margin-top: 70px;
+}
+.skills-all-container {
+  margin-top: 150px;
+}
+.test-line-a {
+  text-decoration: underline;
+}
+.button-seccion-five {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 0 6rem;
+}
+.view-curr {
+  padding: 1rem 0.5rem;
+  border-radius: 255px;
+  border: none;
+  font-family: var(--overpass);
+  font-weight: 400;
+  color: white;
+  background-color: var(--original);
+}
+.view-exam {
+  padding: 1rem 0.5rem;
+  border-radius: 255px;
+  border: 1px solid var(--original);
+  font-family: var(--overpass);
+  font-weight: 400;
+  color: var(--original);
+  background-color: transparent;
+  margin-top: 20px;
+}
+.skills-add-light-desktop,
+.skills-add-dark-desktop {
+  display: none;
+}
+@media (min-width: 710px) {
+  .skills-all-dark,
+  .skills-all-light {
+    display: none;
+  }
+  .section-five p {
+    line-height: 40px;
+    max-width: 720px;
+  }
+  .button-seccion-five {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .view-curr {
+    width: 200px;
+    margin-right: 50px;
+  }
+  .view-exam {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+}
