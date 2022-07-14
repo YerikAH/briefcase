@@ -13,8 +13,10 @@ import Projects from "./components/Projects";
 import SeccionFive from "./components/SeccionFive";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
+import BtnScroll from "./components/BtnScroll";
 
 function App() {
+  const [scroll, setScroll] = useState(false);
   const styleNoMenu = {
     overflow: "hidden",
     height: "0",
@@ -34,11 +36,20 @@ function App() {
     backgroundColor: "var(--text)",
     maxWidth: "720px",
   };
+  window.addEventListener("scroll", (e) => {
+    if (document.documentElement.scrollTop > 1600) {
+      setScroll(true);
+    } else {
+      setScroll(false);
+    }
+  });
   return (
     <>
       <LanguageProvider>
         <BlueProvider>
           <ThemeProvider>
+            {scroll && <BtnScroll />}
+
             {menu ? (
               <RemoveScroll>
                 <Navegator

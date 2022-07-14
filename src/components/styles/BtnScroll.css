@@ -1,0 +1,20 @@
+.scroll-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 250px;
+  background: var(--original);
+  z-index: 2000;
+  opacity: 0.5;
+}
+.scroll-btn:hover {
+  opacity: 1;
+  transition: 0.3s;
+}

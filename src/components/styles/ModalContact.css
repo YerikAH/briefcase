@@ -1,0 +1,223 @@
+.center-modal {
+  background-color: rgba(0, 0, 0, 0.469);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  top: 0;
+  z-index: 5000;
+}
+.center-modal-grid {
+  max-width: 400px;
+  width: 100%;
+}
+.modal-contact {
+  width: 100%;
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+.modal-contact h2 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  color: var(--title);
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.social-media {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  place-items: center;
+  place-content: center;
+  gap: 2rem;
+  margin-bottom: 40px;
+}
+.text-copy {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.text-copy p {
+  font-size: 12px;
+  color: var(--title);
+  margin-right: 10px;
+}
+.text-copy textarea {
+  background: transparent;
+  height: 17px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 12px;
+  color: var(--title);
+  font-weight: 700;
+  width: 150px;
+}
+.center-btn-modal {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.center-btn-modal button {
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--text);
+  background: transparent;
+  border-radius: 255px;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  color: var(--text);
+}
+.exitModal {
+  position: absolute;
+  width: 15px;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  cursor: pointer;
+}
+.linkindMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.githubMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.twittModal > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.whaMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.blue-theme .linkindMod > svg:hover > path {
+  fill: #59b5e1;
+  transition: 0.3s;
+}
+.red-theme .linkindMod > svg:hover > path {
+  fill: #ff6464;
+  transition: 0.3s;
+}
+.yellow-theme .linkindMod > svg:hover > path {
+  fill: #ffd047;
+  transition: 0.3s;
+}
+.green-theme .linkindMod > svg:hover > path {
+  fill: #58c155;
+  transition: 0.3s;
+}
+.original-theme .linkindMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.black-theme .linkindMod > svg:hover > path {
+  fill: #ff9a8b;
+  transition: 0.3s;
+}
+.blue-theme .githubMod > svg:hover > path {
+  fill: #59b5e1;
+  transition: 0.3s;
+}
+.red-theme .githubMod > svg:hover > path {
+  fill: #ff6464;
+  transition: 0.3s;
+}
+.yellow-theme .githubMod > svg:hover > path {
+  fill: #ffd047;
+  transition: 0.3s;
+}
+.green-theme .githubMod > svg:hover > path {
+  fill: #58c155;
+  transition: 0.3s;
+}
+.original-theme .githubMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.black-theme .githubMod > svg:hover > path {
+  fill: #ff9a8b;
+  transition: 0.3s;
+}
+.blue-theme .twittModal > svg:hover > path {
+  fill: #59b5e1;
+  transition: 0.3s;
+}
+.red-theme .twittModal > svg:hover > path {
+  fill: #ff6464;
+  transition: 0.3s;
+}
+.yellow-theme .twittModal > svg:hover > path {
+  fill: #ffd047;
+  transition: 0.3s;
+}
+.green-theme .twittModal > svg:hover > path {
+  fill: #58c155;
+  transition: 0.3s;
+}
+.original-theme .twittModal > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.black-theme .twittModal > svg:hover > path {
+  fill: #ff9a8b;
+  transition: 0.3s;
+}
+.blue-theme .whaMod > svg:hover > path {
+  fill: #59b5e1;
+  transition: 0.3s;
+}
+.red-theme .whaMod > svg:hover > path {
+  fill: #ff6464;
+  transition: 0.3s;
+}
+.yellow-theme .whaMod > svg:hover > path {
+  fill: #ffd047;
+  transition: 0.3s;
+}
+.green-theme .whaMod > svg:hover > path {
+  fill: #58c155;
+  transition: 0.3s;
+}
+.original-theme .whaMod > svg:hover > path {
+  fill: #2f48cc;
+  transition: 0.3s;
+}
+.black-theme .whaMod > svg:hover > path {
+  fill: #ff9a8b;
+  transition: 0.3s;
+}
+
+.blue-theme .center-btn-modal button:hover {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  transition: 0.3s;
+}
+.red-theme .center-btn-modal button:hover {
+  border: 1px solid var(--red);
+  color: var(--red);
+  transition: 0.3s;
+}
+.yellow-theme .center-btn-modal button:hover {
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  transition: 0.3s;
+}
+.green-theme .center-btn-modal button:hover {
+  border: 1px solid var(--green);
+  color: var(--green);
+  transition: 0.3s;
+}
+.original-theme .center-btn-modal button:hover {
+  border: 1px solid var(--original);
+  color: var(--original);
+  transition: 0.3s;
+}
+.black-theme .center-btn-modal button:hover {
+  border: 1px solid #ff9a8b;
+  color: #ff9a8b;
+  transition: 0.3s;
+}

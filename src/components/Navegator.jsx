@@ -14,6 +14,7 @@ import ThemeContext from "../context/ThemeContext";
 import BlueContext from "../context/BlueContext";
 import LanguageContext from "../context/LanguageContext";
 import closeHam from "../svg/close-ham.svg";
+import closeHamDark from "../svg/close-ham-dark.svg";
 
 function Navegator({ styleYesMenu, styleNoMenu, menu, setMenu }) {
   const { switchChildren, handleClickButton, darkmode } =
@@ -94,7 +95,8 @@ function Navegator({ styleYesMenu, styleNoMenu, menu, setMenu }) {
                 onClick={handleClickMenu}
                 style={nopMen}
               >
-                <img src={closeHam} alt="" className="ham-light" />
+                <img src={closeHam} alt="" className="ham-light-close" />
+                <img src={closeHamDark} alt="" className="ham-dark-close" />
               </a>
             </>
           ) : (
@@ -115,7 +117,7 @@ function Navegator({ styleYesMenu, styleNoMenu, menu, setMenu }) {
                 style={yepMen}
               >
                 <img src={closeHam} alt="" className="ham-light-close" />
-                <img src={closeHam} alt="" className="ham-dark-close" />
+                <img src={closeHamDark} alt="" className="ham-dark-close" />
               </a>
             </>
           )}
@@ -270,9 +272,6 @@ function Navegator({ styleYesMenu, styleNoMenu, menu, setMenu }) {
               >
                 {texts.briefcase}
               </Link>
-              {/* <a className="navegator-ul-a" href="#project">
-                {texts.briefcase}
-              </a> */}
             </li>
             <li>
               <a

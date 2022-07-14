@@ -63,6 +63,7 @@
   font-weight: 400;
   color: white;
   background-color: var(--original);
+  text-align: center;
 }
 .btn-view-app {
   padding: 1rem 0.5rem;
@@ -73,6 +74,7 @@
   color: var(--original);
   background-color: transparent;
   margin-top: 20px;
+  text-align: center;
   position: relative;
 }
 #special-project {

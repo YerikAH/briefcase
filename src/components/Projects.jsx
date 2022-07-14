@@ -23,31 +23,55 @@ function Projects() {
               <img
                 className="icon-project-light"
                 src={iconProjectLight}
-                alt=""
+                alt="project"
               />
             </span>
           </div>
           <div className="project-show">
             <h3>{texts.firstProjects}</h3>
             <div className="image-for-show">
-              <img src={projectCat} alt="" />
+              <img src={projectBuss} alt="frond-end-challenge-img" />
             </div>
             <p>{texts.firstProjectsText}</p>
             <div className="buttons-project">
-              <button className="btn-view-code">{texts.btnViewCode}</button>
-              <button className="btn-view-app">{texts.btnViewApp}</button>
+              <a
+                target="_blank"
+                href="https://github.com/YerikAH/frond-end-challenge"
+                className="btn-view-code"
+              >
+                {texts.btnViewCode}
+              </a>
+              <a
+                target="_blank"
+                href="https://yerikah.github.io/frond-end-challenge/"
+                className="btn-view-app"
+              >
+                {texts.btnViewApp}
+              </a>
             </div>
           </div>
 
           <div className="project-show">
             <h3>{texts.secondProjects}</h3>
             <div className="image-for-show">
-              <img src={projectBuss} alt="" />
+              <img src={projectCat} alt="project-cat" />
             </div>
             <p>{texts.secondProjectsText}</p>
             <div className="buttons-project">
-              <button className="btn-view-code">{texts.btnViewCode}</button>
-              <button className="btn-view-app">{texts.btnViewApp}</button>
+              <a
+                target="_blank"
+                href="https://github.com/YerikAH/my-task-app"
+                className="btn-view-code"
+              >
+                {texts.btnViewCode}
+              </a>
+              <a
+                target="_blank"
+                href="https://yerikah.github.io/my-task-app/public/#"
+                className="btn-view-app"
+              >
+                {texts.btnViewApp}
+              </a>
             </div>
           </div>
 
@@ -58,8 +82,20 @@ function Projects() {
             </div>
             <p>{texts.threeProjectsText}</p>
             <div className="buttons-project">
-              <button className="btn-view-code">{texts.btnViewCode}</button>
-              <button className="btn-view-app">{texts.btnViewApp}</button>
+              <a
+                target="_blank"
+                href="https://github.com/YerikAH/easybank-frontend-mentor"
+                className="btn-view-code"
+              >
+                {texts.btnViewCode}
+              </a>
+              <a
+                target="_blank"
+                href="https://yerikah.github.io/easybank-frontend-mentor/"
+                className="btn-view-app"
+              >
+                {texts.btnViewApp}
+              </a>
             </div>
           </div>
         </section>

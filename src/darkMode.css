@@ -82,7 +82,7 @@
   background-color: var(--dark-hov);
 }
 .light .btn-sun-moon {
-  background-color: var(--white);
+  background-color: var(--white-hov);
 }
 /*Projects*/
 
@@ -216,4 +216,24 @@
 }
 .dark .navegator-ul-a:hover {
   color: var(--text);
+}
+@media (min-width: 710px) {
+  .light .btn-sun-moon {
+    background-color: var(--white);
+  }
+}
+.dark .modal-contact {
+  background-color: var(--dark);
+}
+.light .grid-modal-cert {
+  background-color: var(--white);
+}
+.dark .grid-modal-cert {
+  background-color: var(--dark);
+}
+.dark .btn-scroll-color {
+  fill: var(--dark);
+}
+.light .btn-scroll-color {
+  fill: var(--white);
 }

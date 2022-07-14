@@ -47,6 +47,8 @@
 }
 .second-border img {
   width: 250px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 75px 50px 100px 20px;
 }
 .text-about-two {

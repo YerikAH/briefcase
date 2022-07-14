@@ -23,18 +23,22 @@ function AboutMe() {
           <p className="text-about-one">
             <span>
               {texts.hiAbout}
-              <img src={emojiHi} alt="" />
+              <img src={emojiHi} alt="emoji-hello" />
             </span>
             <br />
             {texts.textAboutOne}{" "}
-            <a href="" className="link-about">
+            <a
+              href="https://twitter.com/yerikhar"
+              target="_blank"
+              className="link-about"
+            >
               {texts.linkAbout}
             </a>
           </p>
           <div className="photo-responsive-me">
             <div className="first-border">
               <div className="second-border">
-                <img src={photo} alt="" />
+                <img src={photo} alt="Harvey Yerik" />
               </div>
             </div>
           </div>

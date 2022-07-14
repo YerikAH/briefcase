@@ -1,0 +1,67 @@
+.center-certi {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.469);
+  top: 0;
+  z-index: 3000;
+}
+.grid-sqare-certi img {
+  display: grid;
+  width: 250px;
+  height: 200px;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+.grid-modal-cert {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background: var(--white);
+  overflow: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-sqare-certi {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.img-close-modal {
+  position: absolute;
+  width: 15px;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  cursor: pointer;
+}
+.grid-modal-cert h2 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: var(--title);
+  font-size: 20px;
+}
+.grid-modal-cert p {
+  margin-top: 30px;
+  text-align: center;
+  max-width: 600px;
+  color: var(--text);
+  line-height: 30px;
+  font-size: 14px;
+}
+.link-certi {
+  text-decoration: underline;
+}
+@media (min-width: 610px) {
+  .grid-sqare-certi {
+    grid-template-columns: 300px 300px;
+  }
+}

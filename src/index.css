@@ -3,12 +3,12 @@
 /* color */
 
 :root {
-  --original: #59b5e1;
+  --original: #2f48cc;
   --title: #4c556d;
   --text: #a7afc4;
   --overpass: "Overpass", sans-serif;
   /*themes*/
-  --blue: #2f48cc;
+  --blue: #59b5e1;
   --yellow: #ffd047;
   --red: #ff6464;
   --green: #58c155;

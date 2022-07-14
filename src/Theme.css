@@ -26,16 +26,16 @@
   color: var(--green);
 }
 .black-theme .all-info-seccion-two {
-  background: rgb(46, 173, 255);
-  background: linear-gradient(
-    153deg,
-    rgba(46, 173, 255, 1) 5%,
-    rgba(6, 12, 79, 1) 94%,
-    rgba(6, 12, 79, 1) 100%
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
 }
 .black-theme .seccion-two-first-part button {
-  color: rgba(46, 173, 255, 1);
+  color: #ff9a8b;
 }
 
 .blue-theme .language-es button:hover,
@@ -60,12 +60,14 @@
 }
 .black-theme .language-es button:hover,
 .black-theme .language-en button:hover {
-  background: linear-gradient(
-    153deg,
-    rgba(46, 173, 255, 1) 5%,
-    rgba(6, 12, 79, 1) 94%,
-    rgba(6, 12, 79, 1) 100%
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
+
   background-clip: text;
   color: transparent;
   transition: 0.3s;
@@ -92,12 +94,12 @@
   background-color: var(--original);
 }
 .black-theme .btn-view-code {
-  background: rgb(46, 173, 255);
-  background: linear-gradient(
-    153deg,
-    rgba(46, 173, 255, 1) 5%,
-    rgba(6, 12, 79, 1) 94%,
-    rgba(6, 12, 79, 1) 100%
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
 }
 
@@ -122,8 +124,8 @@
   color: var(--original);
 }
 .black-theme .btn-view-app {
-  color: rgb(46, 173, 255);
-  border: 1px solid rgba(46, 173, 255, 1);
+  color: #ff9a8b;
+  border: 1px solid #ff9a8b;
 }
 
 .blue-theme .test-line-a {
@@ -142,7 +144,7 @@
   color: var(--original);
 }
 .black-theme .test-line-a {
-  color: rgb(46, 173, 255);
+  color: #ff9a8b;
 }
 
 .blue-theme .view-curr {
@@ -161,12 +163,12 @@
   background-color: var(--original);
 }
 .black-theme .view-curr {
-  background: rgb(46, 173, 255);
-  background: linear-gradient(
-    153deg,
-    rgba(46, 173, 255, 1) 5%,
-    rgba(6, 12, 79, 1) 94%,
-    rgba(6, 12, 79, 1) 100%
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
 }
 
@@ -191,9 +193,9 @@
   color: var(--original);
 }
 .black-theme .view-exam {
-  color: rgb(46, 173, 255);
+  color: #ff9a8b;
 
-  border: 1px solid rgba(46, 173, 255, 1);
+  border: 1px solid #ff9a8b;
 }
 /*six seccion*/
 .blue-theme .link-about {
@@ -212,7 +214,7 @@
   color: var(--original);
 }
 .black-theme .link-about {
-  color: rgb(46, 173, 255);
+  color: #ff9a8b;
 }
 
 .blue-theme .first-border {
@@ -249,10 +251,10 @@
   border: 1px solid var(--original);
 }
 .black-theme .first-border {
-  border: 1px solid rgba(46, 173, 255, 1);
+  border: 1px solid #ff9a8b;
 }
 .black-theme .second-border {
-  border: 1px solid rgba(46, 173, 255, 1);
+  border: 1px solid #ff9a8b;
 }
 .blue-theme .footer {
   background-color: var(--blue);
@@ -270,12 +272,12 @@
   background-color: var(--original);
 }
 .black-theme .footer {
-  background: rgb(46, 173, 255);
-  background: linear-gradient(
-    153deg,
-    rgba(46, 173, 255, 1) 5%,
-    rgba(6, 12, 79, 1) 94%,
-    rgba(6, 12, 79, 1) 100%
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
   );
 }
 .btn-view-code:hover {
@@ -290,7 +292,44 @@
   opacity: 0.6;
   transition: 0.3s;
 }
-.view-exam {
+.view-exam:hover {
   opacity: 0.6;
   transition: 0.3s;
+}
+.blue-theme .link-certi {
+  color: var(--blue);
+}
+.red-theme .link-certi {
+  color: var(--red);
+}
+.yellow-theme .link-certi {
+  color: var(--yellow);
+}
+.green-theme .link-certi {
+  color: var(--green);
+}
+.original-theme .link-certi {
+  color: var(--original);
+}
+.black-theme .link-certi {
+  color: #ff9a8b;
+}
+
+.blue-theme .scroll-btn {
+  background-color: var(--blue);
+}
+.red-theme .scroll-btn {
+  background-color: var(--red);
+}
+.yellow-theme .scroll-btn {
+  background-color: var(--yellow);
+}
+.green-theme .scroll-btn {
+  background-color: var(--green);
+}
+.original-theme .scroll-btn {
+  background-color: var(--original);
+}
+.black-theme .scroll-btn {
+  background-color: #ff9a8b;
 }
