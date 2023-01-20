@@ -1,4 +1,4 @@
-# my-portfolio
+# My-portfolio
 
 ## Development 
 ### Project structure
