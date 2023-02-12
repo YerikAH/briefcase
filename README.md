@@ -13,8 +13,8 @@
 
 ### Screenshots
 
-<img src="./screenshots/test-2.png" />
 <img src="./screenshots/test-3.png" />
+<img src="./screenshots/test-2.png" />
 <img src="./screenshots/test-1.png" />
 
 ## Author
