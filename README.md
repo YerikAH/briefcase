@@ -1,8 +1,8 @@
 # My-portfolio
-
+My portfolio, a simple application, where you can change themes and it has 2 languages, you can use the design or improve it, it was developed with React. 
 ## Development 
 ### Project structure
-
+The structure of the app is simple, most of the features (language, themes, dark theme) of the app are handled with the useContext hook, inside the `components` folder there is a `styles` folder in this folder there are all styles CSS.
 
 ### My experience developing
 
